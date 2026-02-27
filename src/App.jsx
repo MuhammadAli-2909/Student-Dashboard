@@ -9,6 +9,7 @@ import RootLayout from './layout/RootLayout'
 import Dashboard from './pages/Dashboard'
 import Login from './pages/Login'
 import ProtectedRoute from './components/ProtectedRoute'
+import NotFound from './pages/NotFound'
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -23,6 +24,7 @@ function App() {
         <Route path='about' element={<About />} />
         <Route path='dashboard' element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
         <Route path='login' element={<Login />} />
+        <Route path="*" element={<NotFound />} />
       </Route>
     )
   )

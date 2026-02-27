@@ -4,8 +4,8 @@ import { useNavigate } from 'react-router-dom'
 function Login() {
   const navigate = useNavigate()
 
-  const adminE = "admin@gmail.com"
-  const adminP = "123456"
+  const adminE = "ali@gmail.com"
+  const adminP = "032905"
 
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")

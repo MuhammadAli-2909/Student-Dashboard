@@ -249,7 +249,7 @@ td button:hover{
     color: white;
     cursor: pointer;
     border: none;
-    background-color: rgb(59, 187, 59);
+    background-color: rgb(59, 68, 187);
     border-radius: 10px;
     padding: 5px 10px;
     text-align: center;
@@ -272,4 +272,26 @@ td button:hover{
 .card p {
   margin: 5px 0 0;
   color: #555;
+}
+
+.home{
+    color: white;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(53, 53, 59);
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.logout{
+    color: white;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(223, 37, 37);
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 18px;
 }
