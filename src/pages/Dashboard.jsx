@@ -17,7 +17,7 @@ function Dashboard() {
     <div className="container">
       <h1>Dashboard</h1>
 
-      <div style={{ display: 'flex', gap: '20px', marginTop: '20px' }}>
+      <div className='dashboard'>
         
         <div className="card">
           <h2>{totalStudents}</h2>
